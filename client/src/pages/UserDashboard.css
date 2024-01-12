@@ -1,0 +1,16 @@
+.member-dashboard {
+    padding: 20px;
+    height: 80vh;
+    background-image: url('../images//dashboardbackground.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .dashboard-actions {
+    margin-top: 30px;
+  }
+  
+  .dashboard-icon {
+    margin-right: 5px;
+  }
+

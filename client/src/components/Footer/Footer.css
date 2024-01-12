@@ -1,0 +1,26 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transition: opacity 0.3s, visibility 0.3s 0.3s;
+}
+
+.social-media-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.social-media-icons li {
+  margin-right: 10px;
+}
+
+.hide-footer {
+  opacity: 0;
+  visibility: hidden;
+}
+

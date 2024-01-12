@@ -1,0 +1,53 @@
+.titlesContainer {
+  background-color: #ffe45e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  /* position: absolute; */
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+.list-group {
+  margin-bottom: 1rem;
+}
+.list-group-item {
+  background-color: #d3ecfc;
+  padding: 1rem;
+  text-align: right;
+  font-size: 1.25rem;
+  border: none;
+  font-weight: 500;
+}
+
+.heroContainer {
+  background-image: url("../images//business-man-working-office-desktop.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsContainer button {
+  font-size: 1.25rem;
+}
+
+.enterEffect {
+  animation: entryEffect 1s ease-in-out forwards;
+}
+
+@keyframes entryEffect {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pricingBox li {
+  list-style-type: none;
+}

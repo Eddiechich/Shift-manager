@@ -1,0 +1,59 @@
+.Page {
+    /* background-color:#ECE8DD; */
+    padding: 30px 0px 30px 0px;
+    min-height: calc(100vh - 172px);
+    padding: 30px 50px;
+}
+
+form input,label,button {
+    display: block;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  .about-content {
+    margin-bottom: 2rem;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .about-content {
+      margin-bottom: 0;
+    }
+  }
+
+  .custom-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .custom-list li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 0.5em;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  .custom-list li {
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .custom-list li span {
+    margin-right: 0.5em; /* Add margin between bullet and text */
+  }
+  .form-label {
+    color: #000000 !important;
+}
+.form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+}

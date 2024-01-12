@@ -1,0 +1,29 @@
+td button {
+    background-color:inherit;
+    border: none;
+    color: black;
+    /* padding: 0.5rem 1rem; */
+    font-size: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+  }
+  
+  td button:hover {
+    opacity: 0.8;
+    color: #cc0000;
+  }
+
+  td img {
+    height: 40px;
+    /* margin-top:40px; */
+    border: 2px solid whitesmoke;
+    border-radius: 90px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}

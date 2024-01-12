@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "643c3d0280d6b98ee49b7fa0"
+  },
+  "name": "ליה מורן",
+  "email": "Liya@email.com",
+  "password": "$2a$12$tbrJoLmvgeFXe4HFr2I./OBH/OX6LOA5X9uICBndKL1PyJBMR/kni",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-04-16T18:22:58.597Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T16:30:50.189Z"
+  },
+  "__v": 0,
+  "roles": [
+    {
+      "$oid": "645e2e4493978bb4d413b209"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "643c3d1480d6b98ee49b7fa3"
+  },
+  "name": "רון גולד",
+  "email": "ron@email.com",
+  "password": "$2a$12$MhYLZnzdHwPnLoY.OzXFB.24ofsVvUeK0MfJ5W2WGBaJLJYXjvPIi",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-04-16T18:23:16.244Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T16:39:10.517Z"
+  },
+  "__v": 0,
+  "roles": [
+    {
+      "$oid": "645e5544944dfb935b97169f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "643d6cc47aa20c6d4cb2627c"
+  },
+  "name": "עידו שבתאי",
+  "email": "Admin@email.com",
+  "password": "$2a$12$nWL6lZ3rRDk/iqMlZdf.1u5QWx/f1iA95YxGCbkPYwaiFCdTBGZEW",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-04-17T15:59:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-17T15:59:00.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644e9f24d7b0f307b714c804"
+  },
+  "name": "לירן רומנו",
+  "email": "liran@email.com",
+  "password": "$2a$12$Yf.VgV/vBm2MCCAk99QLpOWsqx4zTLYeCxVGXTJvJdB.suHOtC5Y.",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-04-30T17:02:28.893Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T16:22:13.352Z"
+  },
+  "__v": 0,
+  "roles": [
+    {
+      "$oid": "645e5544944dfb935b97169f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64529c12d7b959594b692b88"
+  },
+  "name": "אדי מורן",
+  "email": "Eddiechich@gmail.com",
+  "password": "$2a$12$Ajb/cN2MgB4cR7fcwaOq9.jpIJ4NrhlTp.YjdQIym4c3qz6Qtu63m",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-05-03T17:38:26.530Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-03T17:38:26.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64529ccad7b959594b692b8c"
+  },
+  "name": "נעם מורן",
+  "email": "Noam@email.com",
+  "password": "$2a$12$.FHLV2FjNvJ.Y.yBU3trYOiY.rLInreon81TvWsmoAwrEIloWJ1A6",
+  "imgUrl": "http://localhost:5000/assets/images/user-profile-default.png",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-05-03T17:41:30.861Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-03T17:41:30.861Z"
+  },
+  "__v": 0
+}]

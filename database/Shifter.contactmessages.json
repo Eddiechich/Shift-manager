@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6488a021887891bcf9863f42"
+  },
+  "name": "אדי מורן",
+  "email": "Eddiechich@gmail.com",
+  "phone": "0544222002",
+  "message": "test",
+  "createdAt": {
+    "$date": "2023-06-13T16:58:09.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-13T16:58:09.751Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,144 @@
+/* Style for Navbar container */
+.navbar {
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0 0.8rem;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for Navbar Brand (logo and title) */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+/* Style for Navbar Brand logo */
+.navbar-brand img {
+  height: 100px;
+}
+
+/* Style for Navbar Links */
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style for Navbar Links items */
+.nav-item {
+  margin-right: 1.5rem;
+}
+
+/* Style for Navbar Links active item */
+.nav-item .nav-link.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+}
+
+.user-profile-img {
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 90px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+/* Style for Hamburger Menu */
+@media (max-width: 999px) {
+  .navbar-toggler {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #007bff;
+    border-radius: 4px;
+    width: 30px;
+    height: 3px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 99;
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-link {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Custom styles for the Header */
+.Header {
+  height: 130px;
+  background-color: #579bb1;
+  color: white;
+}
+
+.Header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.Header a {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Header .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
